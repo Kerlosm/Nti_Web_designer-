@@ -322,18 +322,7 @@ nav #menuButton {
     margin-top: 20px;
 }
 
-#contactMe .formData .formItems div textarea {
-    font-size: 1.5rem;
-    border-left: 0;
-    border-right: 0;
-    border-top: 0;
-    border-radius: 0;
-    border-width: 1px;
-    margin: 30px;
-    height: 70px;
-}
-
-#contactMe .formData .formItems div input:focus {
+#contactMe .formData .formItems form div input:focus{
     font-size: 1.5rem;
     border-left: 0;
     border-right: 0;
@@ -344,6 +333,27 @@ nav #menuButton {
     height: 70px;
 }
 
+#contactMe .formData .formItems div textarea {
+    font-size: 1.5rem;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
+    border-width: 1px;
+    height: 70px;
+}
+
+/* #contactMe .formData .formItems div input:focus {
+    font-size: 1.5rem;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
+    border-width: 0px;
+    box-shadow: none;
+    height: 70px;
+} */
+
 #contactMe .formData .formItems form div .submit {
     font-size: 1.5rem;
     border: none;
@@ -352,7 +362,8 @@ nav #menuButton {
     border-radius: 5px;
     padding: 10px 20px;
     position: sticky;
-    cursor: pointer
+    cursor: pointer;
+   
 }
 
 /* ------------------------------------------------------------- */
@@ -446,6 +457,19 @@ nav #menuButton {
 
 #footer #aboutFreelancer a {
     color: var(--myGreen);
+}
+
+/* ------------------------------------------------- */
+/* copyright */
+
+#copyright {
+    font-size: 14px;
+    /* margin-top: 25px; */
+    padding: 25px;
+    text-align: center;
+    color: var(--myWhite);
+    background-color: #1a252f;
+    height: auto;
 }
 
 
